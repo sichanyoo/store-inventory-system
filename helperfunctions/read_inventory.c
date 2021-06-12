@@ -1,11 +1,7 @@
-/*BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE 
- * OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT. 
- * NAME: SICHAN YUH */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "lab4.h"
+#include "inventory.h"
 
 /*this function reads the store_inventory and creates a linked list*/
 Node* read_inventory(char *fileName) {

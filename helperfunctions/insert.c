@@ -1,10 +1,6 @@
-/*BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE 
- * OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT. 
- * NAME: SICHAN YUH */
-
 #include <stdio.h>
 #include <stdlib.h>
-#include "lab4.h"
+#include "inventory.h"
 
 /*this function inserts the node item to the linked list headed by head*/
 void insert(Node **head, Node *item) {

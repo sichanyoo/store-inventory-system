@@ -1,10 +1,7 @@
-/*BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE TENURES OF THE OHIO STATE 
- * UNIVERSITY'S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT. NAME: SICHAN YUH*/
-
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
-#include "lab4.h"
+#include "inventory.h"
 #include <string.h>
 
 float dept_nine(Node *head, int print) {
