@@ -29,3 +29,5 @@ The program can:
 ## How to Run
 
 The program takes two parameters, first being existing inventory data file with data to be read in, and second being the name of a data file that the program will create with output (updated) inventory.
+
+## Thanks for Visiting the Repo! :)
