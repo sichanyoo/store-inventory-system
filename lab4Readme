@@ -1,0 +1,24 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO THE
+TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY WITH RESPECT TO THIS ASSIGNMENT.
+THIS IS THE README FILE FOR LAB 4.
+NAME: SICHAN YUH
+
+Total amount of time took:
+- Around 20 hours.
+
+Comments in general about the lab contents:
+- Doing this lab took a long time and lots of effort.
+  However I think I learned a lot as well.
+  Manipulating Node structs to form a singly linked list and building UI capabilities was fun.
+  I hope I do well on this lab.
+
+How gdb was used:
+- Valgrind was telling me there are memory leaks.
+  So I repeated the exactly same input with gdb, looking through line by line in program execution
+  and stepping into methods upon call from main function.
+  I set breakpoints whereever I dynamically allocated memory for a Node, by going through the program,
+  stepping into methods, and writing the command "break malloc".
+  Then using this focused look at malloc calls using gdb, I realized that I don't free the node memory
+  when the user tries to add a new grocery item with a stock number that is already in the list.
+  gdb was very helpful once again. 
+
